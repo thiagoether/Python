@@ -1,0 +1,6 @@
+nc = input('Digite seu nome completo:').strip()
+lista = nc.split()
+print('Tudo maiusculo: {}'.format(nc.upper()))
+print('Tudo minusculo: {}'.format(nc.lower()))
+print('Total de letras sem espaços: {}'.format(len(nc) - nc.count(' ')))
+print('Total de letras do primeiro nome: {}'.format(len(lista[0])))
